@@ -15,7 +15,7 @@ price=driver.find_element_by_xpath("//*[@id='priceblock_ourprice']").text
 brand_name=driver.find_element_by_xpath("//*[@id='productDetails_techSpec_section_1']/tbody/tr[1]/td").text
 series=driver.find_element_by_xpath("//*[@id='productDetails_techSpec_section_1']/tbody/tr[2]/td").text
 asin=driver.find_element_by_xpath("//*[@id='productDetails_detailBullets_sections1']/tbody/tr[1]/td").text
-#category` have to parce bsr and choose one where len bigger !!!!   
+#category` have to parce bsr and choose one where len bigger !!!!
 color=driver.find_element_by_xpath("//*[@id='productDetails_techSpec_section_1']/tbody/tr[7]/td").text
 weight=driver.find_element_by_xpath("//*[@id='productDetails_techSpec_section_1']/tbody/tr[4]/td").text
 shipping_weight = driver.find_element_by_xpath("//*[@id='productDetails_detailBullets_sections1']/tbody/tr[4]/td").text
